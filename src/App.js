@@ -3,7 +3,6 @@ import './App.css';
 
 function App() {
   return (
-    
       <header className="App-header">
         Shah Family Chart
       </header>
