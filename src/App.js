@@ -1,12 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import MemberForm from './components/MemberForm';
 
 function App() {
   return (
+    <div className="App">
       <header className="App-header">
-        Shah Family Chart
+        <h1>Shah Family Chart</h1>
+        <p>Add a new family member</p>
       </header>
-   
+      <main>
+        <MemberForm />
+      </main>
+    </div>
   );
 }
 
